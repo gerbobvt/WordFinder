@@ -8,7 +8,7 @@ namespace WordFinder
     {
         static void Main(string[] args)
         {
-            var dictionary = LoadWords("..\\..\\words.txt");
+            var dictionary = LoadWords("..\\..\\..\\words.txt");
             var input = "supersizemeBucket111111.033dogsandcatsitembarked";
 
             var foundWords = FindWords(input, dictionary);
